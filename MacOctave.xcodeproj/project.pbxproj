@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1F662AED1F97ECBC0023346C /* gmp */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F662AEE1F97ECBC0023346C /* Build configuration list for PBXAggregateTarget "gmp" */;
+			buildPhases = (
+				1F662AF11F97ECC70023346C /* Download */,
+				1F662AF41F97EE090023346C /* Build */,
+				1F662AFB1F97F0720023346C /* Install */,
+			);
+			dependencies = (
+			);
+			name = gmp;
+			productName = gmp;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1F662B1E1F97F3100023346C /* gmpxx.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F662B011F97F3030023346C /* gmpxx.h */; };
+		1F662B1F1F97F3100023346C /* gmp.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F662B021F97F3030023346C /* gmp.h */; };
+		1F662B211F97F3220023346C /* libgmpxx.4.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B041F97F3030023346C /* libgmpxx.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F662B221F97F3220023346C /* libgmpxx.la in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B051F97F3030023346C /* libgmpxx.la */; };
+		1F662B231F97F3220023346C /* libgmp.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B061F97F3030023346C /* libgmp.a */; };
+		1F662B241F97F3220023346C /* libgmp.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B071F97F3030023346C /* libgmp.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F662B251F97F3220023346C /* libgmpxx.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B081F97F3030023346C /* libgmpxx.a */; };
+		1F662B261F97F3220023346C /* libgmp.la in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B091F97F3030023346C /* libgmp.la */; };
+		1F662B271F97F3220023346C /* libgmp.10.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B0A1F97F3030023346C /* libgmp.10.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F662B281F97F3220023346C /* libgmpxx.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B0B1F97F3030023346C /* libgmpxx.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F662B2B1F97F33E0023346C /* gmp.info-1 in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B0E1F97F3030023346C /* gmp.info-1 */; };
+		1F662B2C1F97F33E0023346C /* gmp.info in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B0F1F97F3030023346C /* gmp.info */; };
+		1F662B2D1F97F33E0023346C /* gmp.info-2 in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B101F97F3030023346C /* gmp.info-2 */; };
+		1F662B2E1F97F33E0023346C /* dir in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B111F97F3030023346C /* dir */; };
+		1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F662AFC1F97F2E20023346C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F662AD81F97E9E80023346C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F662AED1F97ECBC0023346C;
+			remoteInfo = gmp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F662AFE1F97F2EA0023346C /* Copy Prefix — include */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Prefix/include;
+			dstSubfolderSpec = 1;
+			files = (
+				1F662B1E1F97F3100023346C /* gmpxx.h in Copy Prefix — include */,
+				1F662B1F1F97F3100023346C /* gmp.h in Copy Prefix — include */,
+			);
+			name = "Copy Prefix — include";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F662B201F97F3120023346C /* Copy Prefix — lib */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Prefix/lib;
+			dstSubfolderSpec = 1;
+			files = (
+				1F662B211F97F3220023346C /* libgmpxx.4.dylib in Copy Prefix — lib */,
+				1F662B221F97F3220023346C /* libgmpxx.la in Copy Prefix — lib */,
+				1F662B231F97F3220023346C /* libgmp.a in Copy Prefix — lib */,
+				1F662B241F97F3220023346C /* libgmp.dylib in Copy Prefix — lib */,
+				1F662B251F97F3220023346C /* libgmpxx.a in Copy Prefix — lib */,
+				1F662B261F97F3220023346C /* libgmp.la in Copy Prefix — lib */,
+				1F662B271F97F3220023346C /* libgmp.10.dylib in Copy Prefix — lib */,
+				1F662B281F97F3220023346C /* libgmpxx.dylib in Copy Prefix — lib */,
+			);
+			name = "Copy Prefix — lib";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F662B2A1F97F32C0023346C /* Copy Prefix — share/info */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Prefix/share/info;
+			dstSubfolderSpec = 1;
+			files = (
+				1F662B2B1F97F33E0023346C /* gmp.info-1 in Copy Prefix — share/info */,
+				1F662B2C1F97F33E0023346C /* gmp.info in Copy Prefix — share/info */,
+				1F662B2D1F97F33E0023346C /* gmp.info-2 in Copy Prefix — share/info */,
+				1F662B2E1F97F33E0023346C /* dir in Copy Prefix — share/info */,
+			);
+			name = "Copy Prefix — share/info";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F662B331F97F3A00023346C /* Copy Source Tarballs */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Sources;
+			dstSubfolderSpec = 7;
+			files = (
+				1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */,
+			);
+			name = "Copy Source Tarballs";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Octave-4.2.1.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F662AE51F97EA1F0023346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F662AEC1F97EBA20023346C /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
+		1F662AF31F97ED740023346C /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		1F662AFA1F97F0470023346C /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		1F662B011F97F3030023346C /* gmpxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmpxx.h; sourceTree = "<group>"; };
+		1F662B021F97F3030023346C /* gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmp.h; sourceTree = "<group>"; };
+		1F662B041F97F3030023346C /* libgmpxx.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmpxx.4.dylib; sourceTree = "<group>"; };
+		1F662B051F97F3030023346C /* libgmpxx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libgmpxx.la; sourceTree = "<group>"; };
+		1F662B061F97F3030023346C /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp.a; sourceTree = "<group>"; };
+		1F662B071F97F3030023346C /* libgmp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmp.dylib; sourceTree = "<group>"; };
+		1F662B081F97F3030023346C /* libgmpxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmpxx.a; sourceTree = "<group>"; };
+		1F662B091F97F3030023346C /* libgmp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libgmp.la; sourceTree = "<group>"; };
+		1F662B0A1F97F3030023346C /* libgmp.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmp.10.dylib; sourceTree = "<group>"; };
+		1F662B0B1F97F3030023346C /* libgmpxx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmpxx.dylib; sourceTree = "<group>"; };
+		1F662B0E1F97F3030023346C /* gmp.info-1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmp.info-1"; sourceTree = "<group>"; };
+		1F662B0F1F97F3030023346C /* gmp.info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gmp.info; sourceTree = "<group>"; };
+		1F662B101F97F3030023346C /* gmp.info-2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmp.info-2"; sourceTree = "<group>"; };
+		1F662B111F97F3030023346C /* dir */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dir; sourceTree = "<group>"; };
+		1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gmp-6.1.2.tar.xz"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F662ADF1F97EA1F0023346C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F662AD71F97E9E80023346C = {
+			isa = PBXGroup;
+			children = (
+				1F662AF71F97EFFA0023346C /* BuildOutputs */,
+				1F662AE91F97EAEE0023346C /* Components */,
+				1F662AE41F97EA1F0023346C /* DistBundle */,
+				1F662AE31F97EA1F0023346C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F662AE31F97EA1F0023346C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F662AE41F97EA1F0023346C /* DistBundle */ = {
+			isa = PBXGroup;
+			children = (
+				1F662AE51F97EA1F0023346C /* Info.plist */,
+			);
+			path = DistBundle;
+			sourceTree = "<group>";
+		};
+		1F662AE91F97EAEE0023346C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1F662AEA1F97EAF20023346C /* gmp */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1F662AEA1F97EAF20023346C /* gmp */ = {
+			isa = PBXGroup;
+			children = (
+				1F662AEC1F97EBA20023346C /* download.sh */,
+				1F662AF31F97ED740023346C /* build.sh */,
+				1F662AFA1F97F0470023346C /* install.sh */,
+			);
+			path = gmp;
+			sourceTree = "<group>";
+		};
+		1F662AF71F97EFFA0023346C /* BuildOutputs */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B301F97F3990023346C /* Tarballs */,
+				1F662AFF1F97F3030023346C /* gmp */,
+			);
+			path = BuildOutputs;
+			sourceTree = "<group>";
+		};
+		1F662AFF1F97F3030023346C /* gmp */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B001F97F3030023346C /* include */,
+				1F662B031F97F3030023346C /* lib */,
+				1F662B0C1F97F3030023346C /* share */,
+			);
+			path = gmp;
+			sourceTree = "<group>";
+		};
+		1F662B001F97F3030023346C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B011F97F3030023346C /* gmpxx.h */,
+				1F662B021F97F3030023346C /* gmp.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1F662B031F97F3030023346C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B041F97F3030023346C /* libgmpxx.4.dylib */,
+				1F662B051F97F3030023346C /* libgmpxx.la */,
+				1F662B061F97F3030023346C /* libgmp.a */,
+				1F662B071F97F3030023346C /* libgmp.dylib */,
+				1F662B081F97F3030023346C /* libgmpxx.a */,
+				1F662B091F97F3030023346C /* libgmp.la */,
+				1F662B0A1F97F3030023346C /* libgmp.10.dylib */,
+				1F662B0B1F97F3030023346C /* libgmpxx.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1F662B0C1F97F3030023346C /* share */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B0D1F97F3030023346C /* info */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		1F662B0D1F97F3030023346C /* info */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B0E1F97F3030023346C /* gmp.info-1 */,
+				1F662B0F1F97F3030023346C /* gmp.info */,
+				1F662B101F97F3030023346C /* gmp.info-2 */,
+				1F662B111F97F3030023346C /* dir */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		1F662B301F97F3990023346C /* Tarballs */ = {
+			isa = PBXGroup;
+			children = (
+				1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */,
+			);
+			path = Tarballs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F662AE11F97EA1F0023346C /* Octave-4.2.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F662AE61F97EA1F0023346C /* Build configuration list for PBXNativeTarget "Octave-4.2.1" */;
+			buildPhases = (
+				1F662ADE1F97EA1F0023346C /* Sources */,
+				1F662ADF1F97EA1F0023346C /* Frameworks */,
+				1F662AE01F97EA1F0023346C /* Resources */,
+				1F662AFE1F97F2EA0023346C /* Copy Prefix — include */,
+				1F662B201F97F3120023346C /* Copy Prefix — lib */,
+				1F662B2A1F97F32C0023346C /* Copy Prefix — share/info */,
+				1F662B331F97F3A00023346C /* Copy Source Tarballs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F662AFD1F97F2E20023346C /* PBXTargetDependency */,
+			);
+			name = "Octave-4.2.1";
+			productName = "Octave-4.2.1";
+			productReference = 1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F662AD81F97E9E80023346C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OCT;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "William Kent";
+				TargetAttributes = {
+					1F662AE11F97EA1F0023346C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1F662AED1F97ECBC0023346C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F662ADB1F97E9E80023346C /* Build configuration list for PBXProject "MacOctave" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F662AD71F97E9E80023346C;
+			productRefGroup = 1F662AE31F97EA1F0023346C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F662AE11F97EA1F0023346C /* Octave-4.2.1 */,
+				1F662AED1F97ECBC0023346C /* gmp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F662AE01F97EA1F0023346C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F662AF11F97ECC70023346C /* Download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Download;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/gmp/download.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		1F662AF41F97EE090023346C /* Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(DOWNLOAD_FILENAME)",
+			);
+			name = Build;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/build.done",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/gmp/build.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		1F662AFB1F97F0720023346C /* Install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_FILE_DIR)/build.done",
+			);
+			name = Install;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/install.done",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/gmp/install.sh\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F662ADE1F97EA1F0023346C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F662AFD1F97F2E20023346C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F662AED1F97ECBC0023346C /* gmp */;
+			targetProxy = 1F662AFC1F97F2E20023346C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F662ADC1F97E9E80023346C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OCTAVE_BUNDLE_PREFIX = "$(LOCAL_LIBRARY_DIR)/Octave/Octave-$(OCTAVE_VERSION).bundle/Contents/Prefix";
+				OCTAVE_VERSION = 4.2.1;
+			};
+			name = Debug;
+		};
+		1F662ADD1F97E9E80023346C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OCTAVE_BUNDLE_PREFIX = "$(LOCAL_LIBRARY_DIR)/Octave/Octave-$(OCTAVE_VERSION).bundle/Contents/Prefix";
+				OCTAVE_VERSION = 4.2.1;
+			};
+			name = Release;
+		};
+		1F662AE71F97EA1F0023346C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DistBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/OctaveBundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BuildOutputs/gmp/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunburstapps.Octave;
+				PRODUCT_NAME = "Octave-$(OCTAVE_VERSION)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1F662AE81F97EA1F0023346C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DistBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/OctaveBundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BuildOutputs/gmp/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunburstapps.Octave;
+				PRODUCT_NAME = "Octave-$(OCTAVE_VERSION)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1F662AEF1F97ECBC0023346C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				DOWNLOAD_FILENAME = "gmp-6.1.2.tar.xz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F662AF01F97ECBC0023346C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				DOWNLOAD_FILENAME = "gmp-6.1.2.tar.xz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F662ADB1F97E9E80023346C /* Build configuration list for PBXProject "MacOctave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F662ADC1F97E9E80023346C /* Debug */,
+				1F662ADD1F97E9E80023346C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F662AE61F97EA1F0023346C /* Build configuration list for PBXNativeTarget "Octave-4.2.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F662AE71F97EA1F0023346C /* Debug */,
+				1F662AE81F97EA1F0023346C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F662AEE1F97ECBC0023346C /* Build configuration list for PBXAggregateTarget "gmp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F662AEF1F97ECBC0023346C /* Debug */,
+				1F662AF01F97ECBC0023346C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F662AD81F97E9E80023346C /* Project object */;
+}
