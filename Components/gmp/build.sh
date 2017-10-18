@@ -14,8 +14,6 @@ cd "${DERIVED_FILE_DIR}"
 	tar xf "${DERIVED_FILE_DIR}/${DOWNLOAD_FILENAME}"
 }
 
-echo The prefix is ${OCTAVE_BUNDLE_PREFIX}
-
 mkdir -p build; cd build
 echo Configuring
 ../gmp-6.1.2/configure \
