@@ -1,11 +1,5 @@
 #!/bin/sh
 
-#  download.sh
-#  MacOctave
-#
-#  Created by William Kent on 10/18/17.
-#  Copyright © 2017 William Kent. All rights reserved.
-
 set -e
 
 DOWNLOAD_URL="https://gmplib.org/download/gmp/${DOWNLOAD_FILENAME}"

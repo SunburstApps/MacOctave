@@ -1,11 +1,5 @@
 #!/bin/sh
 
-#  build.sh
-#  MacOctave
-#
-#  Created by William Kent on 10/18/17.
-#  Copyright © 2017 William Kent. All rights reserved.
-
 set -e
 
 cd "${DERIVED_FILE_DIR}"
