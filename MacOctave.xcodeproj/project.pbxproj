@@ -336,6 +336,7 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Components/gmp/download.sh",
 			);
 			name = Download;
 			outputPaths = (
@@ -352,7 +353,8 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/$(DOWNLOAD_FILENAME)",
+				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
+				"$(SRCROOT)/Components/gmp/build.sh",
 			);
 			name = Build;
 			outputPaths = (
@@ -370,6 +372,7 @@
 			);
 			inputPaths = (
 				"$(DERIVED_FILE_DIR)/build.done",
+				"$(SRCROOT)/Components/gmp/install.sh",
 			);
 			name = Install;
 			outputPaths = (
