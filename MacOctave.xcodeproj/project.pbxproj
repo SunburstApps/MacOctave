@@ -20,6 +20,19 @@
 			name = gmp;
 			productName = gmp;
 		};
+		1F8A5A871F99394A00CB0AC9 /* veclibfort */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F8A5A881F99394A00CB0AC9 /* Build configuration list for PBXAggregateTarget "veclibfort" */;
+			buildPhases = (
+				1F8A5A8B1F99394C00CB0AC9 /* Download */,
+				1F8A5A901F993A4D00CB0AC9 /* Build */,
+				1F8A5A911F993A7000CB0AC9 /* Install */,
+			);
+			dependencies = (
+			);
+			name = veclibfort;
+			productName = veclibfort;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
@@ -38,6 +51,10 @@
 		1F662B2D1F97F33E0023346C /* gmp.info-2 in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B101F97F3030023346C /* gmp.info-2 */; };
 		1F662B2E1F97F33E0023346C /* dir in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B111F97F3030023346C /* dir */; };
 		1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */; };
+		1F8A5A941F993B3000CB0AC9 /* vecLibFort-0.4.2.tar.gz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */; };
+		1F8A5A9B1F993B5500CB0AC9 /* libvecLibFort.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */; };
+		1F8A5A9C1F993B5500CB0AC9 /* libvecLibFort.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A991F993B4100CB0AC9 /* libvecLibFort.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F8A5A9D1F993B5500CB0AC9 /* libvecLibFortI.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A9A1F993B4100CB0AC9 /* libvecLibFortI.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F662AED1F97ECBC0023346C;
 			remoteInfo = gmp;
+		};
+		1F8A5A8C1F99397E00CB0AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F662AD81F97E9E80023346C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8A5A871F99394A00CB0AC9;
+			remoteInfo = veclibfort;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -77,6 +101,9 @@
 				1F662B261F97F3220023346C /* libgmp.la in Copy Prefix — lib */,
 				1F662B271F97F3220023346C /* libgmp.10.dylib in Copy Prefix — lib */,
 				1F662B281F97F3220023346C /* libgmpxx.dylib in Copy Prefix — lib */,
+				1F8A5A9B1F993B5500CB0AC9 /* libvecLibFort.a in Copy Prefix — lib */,
+				1F8A5A9C1F993B5500CB0AC9 /* libvecLibFort.dylib in Copy Prefix — lib */,
+				1F8A5A9D1F993B5500CB0AC9 /* libvecLibFortI.dylib in Copy Prefix — lib */,
 			);
 			name = "Copy Prefix — lib";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +129,7 @@
 			dstSubfolderSpec = 7;
 			files = (
 				1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */,
+				1F8A5A941F993B3000CB0AC9 /* vecLibFort-0.4.2.tar.gz in Copy Source Tarballs */,
 			);
 			name = "Copy Source Tarballs";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +157,13 @@
 		1F662B101F97F3030023346C /* gmp.info-2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmp.info-2"; sourceTree = "<group>"; };
 		1F662B111F97F3030023346C /* dir */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dir; sourceTree = "<group>"; };
 		1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gmp-6.1.2.tar.xz"; sourceTree = "<group>"; };
+		1F8A5A861F99390800CB0AC9 /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
+		1F8A5A8E1F9939A500CB0AC9 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		1F8A5A8F1F993A1400CB0AC9 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "vecLibFort-0.4.2.tar.gz"; sourceTree = "<group>"; };
+		1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvecLibFort.a; sourceTree = "<group>"; };
+		1F8A5A991F993B4100CB0AC9 /* libvecLibFort.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libvecLibFort.dylib; sourceTree = "<group>"; };
+		1F8A5A9A1F993B4100CB0AC9 /* libvecLibFortI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libvecLibFortI.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +206,7 @@
 		1F662AE91F97EAEE0023346C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1F8A5A851F9938F900CB0AC9 /* veclibfort */,
 				1F662AEA1F97EAF20023346C /* gmp */,
 			);
 			path = Components;
@@ -191,6 +227,7 @@
 			children = (
 				1F662B301F97F3990023346C /* Tarballs */,
 				1F662AFF1F97F3030023346C /* gmp */,
+				1F8A5A961F993B4100CB0AC9 /* veclibfort */,
 			);
 			path = BuildOutputs;
 			sourceTree = "<group>";
@@ -251,9 +288,38 @@
 		1F662B301F97F3990023346C /* Tarballs */ = {
 			isa = PBXGroup;
 			children = (
+				1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */,
 				1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */,
 			);
 			path = Tarballs;
+			sourceTree = "<group>";
+		};
+		1F8A5A851F9938F900CB0AC9 /* veclibfort */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A5A861F99390800CB0AC9 /* download.sh */,
+				1F8A5A8E1F9939A500CB0AC9 /* build.sh */,
+				1F8A5A8F1F993A1400CB0AC9 /* install.sh */,
+			);
+			path = veclibfort;
+			sourceTree = "<group>";
+		};
+		1F8A5A961F993B4100CB0AC9 /* veclibfort */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A5A971F993B4100CB0AC9 /* lib */,
+			);
+			path = veclibfort;
+			sourceTree = "<group>";
+		};
+		1F8A5A971F993B4100CB0AC9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */,
+				1F8A5A991F993B4100CB0AC9 /* libvecLibFort.dylib */,
+				1F8A5A9A1F993B4100CB0AC9 /* libvecLibFortI.dylib */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +340,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1F8A5A8D1F99397E00CB0AC9 /* PBXTargetDependency */,
 				1F662AFD1F97F2E20023346C /* PBXTargetDependency */,
 			);
 			name = "Octave-4.2.1";
@@ -299,6 +366,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					1F8A5A871F99394A00CB0AC9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1F662ADB1F97E9E80023346C /* Build configuration list for PBXProject "MacOctave" */;
@@ -315,6 +386,7 @@
 			targets = (
 				1F662AE11F97EA1F0023346C /* Octave-4.2.1 */,
 				1F662AED1F97ECBC0023346C /* gmp */,
+				1F8A5A871F99394A00CB0AC9 /* veclibfort */,
 			);
 		};
 /* End PBXProject section */
@@ -383,6 +455,59 @@
 			shellScript = ". \"${SRCROOT}/Components/gmp/install.sh\"";
 			showEnvVarsInLog = 0;
 		};
+		1F8A5A8B1F99394C00CB0AC9 /* Download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Components/veclibfort/download.sh",
+			);
+			name = Download;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/veclibfort/download.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		1F8A5A901F993A4D00CB0AC9 /* Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Components/veclibfort/build.sh",
+				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
+			);
+			name = Build;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/build.done",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/veclibfort/build.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		1F8A5A911F993A7000CB0AC9 /* Install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Components/veclibfort/install.sh",
+				"$(DERIVED_FILE_DIR)/build.done",
+			);
+			name = Install;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/install.done",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/veclibfort/install.sh\"";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -400,6 +525,11 @@
 			isa = PBXTargetDependency;
 			target = 1F662AED1F97ECBC0023346C /* gmp */;
 			targetProxy = 1F662AFC1F97F2E20023346C /* PBXContainerItemProxy */;
+		};
+		1F8A5A8D1F99397E00CB0AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F8A5A871F99394A00CB0AC9 /* veclibfort */;
+			targetProxy = 1F8A5A8C1F99397E00CB0AC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -569,6 +699,24 @@
 			};
 			name = Release;
 		};
+		1F8A5A891F99394A00CB0AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DOWNLOAD_FILENAME = "vecLibFort-0.4.2.tar.gz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F8A5A8A1F99394A00CB0AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DOWNLOAD_FILENAME = "vecLibFort-0.4.2.tar.gz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +743,15 @@
 			buildConfigurations = (
 				1F662AEF1F97ECBC0023346C /* Debug */,
 				1F662AF01F97ECBC0023346C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8A5A881F99394A00CB0AC9 /* Build configuration list for PBXAggregateTarget "veclibfort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8A5A891F99394A00CB0AC9 /* Debug */,
+				1F8A5A8A1F99394A00CB0AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
