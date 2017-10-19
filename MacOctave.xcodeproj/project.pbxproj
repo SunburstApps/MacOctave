@@ -610,7 +610,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunburstapps.Octave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunburstapps.octave.cli;
 				PRODUCT_NAME = "Octave-$(OCTAVE_VERSION)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -671,7 +671,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunburstapps.Octave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunburstapps.octave.cli;
 				PRODUCT_NAME = "Octave-$(OCTAVE_VERSION)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
