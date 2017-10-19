@@ -13,6 +13,7 @@ mkdir -p /tmp/gmp.dst
 make install DESTDIR=/tmp/gmp.dst \
 &> "${DERIVED_FILE_DIR}/install.log"
 
+rm -rf "${SRCROOT}/BuildOutputs/gmp"
 mv -f /tmp/gmp.dst/${OCTAVE_BUNDLE_PREFIX} "${SRCROOT}/BuildOutputs/gmp"
 rm -r /tmp/gmp.dst
 
