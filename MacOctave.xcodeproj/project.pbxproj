@@ -20,19 +20,6 @@
 			name = metis;
 			productName = metis;
 		};
-		1F662AED1F97ECBC0023346C /* gmp */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1F662AEE1F97ECBC0023346C /* Build configuration list for PBXAggregateTarget "gmp" */;
-			buildPhases = (
-				1F662AF11F97ECC70023346C /* Download */,
-				1F662AF41F97EE090023346C /* Build */,
-				1F662AFB1F97F0720023346C /* Install */,
-			);
-			dependencies = (
-			);
-			name = gmp;
-			productName = gmp;
-		};
 		1F8A5A871F99394A00CB0AC9 /* veclibfort */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 1F8A5A881F99394A00CB0AC9 /* Build configuration list for PBXAggregateTarget "veclibfort" */;
@@ -58,20 +45,6 @@
 		1F102C391F9980B50074DFF0 /* gpmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2D1F9980840074DFF0 /* gpmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1F102C3A1F9980BD0074DFF0 /* metis.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F102C2F1F9980840074DFF0 /* metis.h */; };
 		1F102C3B1F9980C60074DFF0 /* libmetis.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F102C311F9980840074DFF0 /* libmetis.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F662B1E1F97F3100023346C /* gmpxx.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F662B011F97F3030023346C /* gmpxx.h */; };
-		1F662B1F1F97F3100023346C /* gmp.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F662B021F97F3030023346C /* gmp.h */; };
-		1F662B211F97F3220023346C /* libgmpxx.4.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B041F97F3030023346C /* libgmpxx.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F662B221F97F3220023346C /* libgmpxx.la in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B051F97F3030023346C /* libgmpxx.la */; };
-		1F662B231F97F3220023346C /* libgmp.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B061F97F3030023346C /* libgmp.a */; };
-		1F662B241F97F3220023346C /* libgmp.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B071F97F3030023346C /* libgmp.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F662B251F97F3220023346C /* libgmpxx.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B081F97F3030023346C /* libgmpxx.a */; };
-		1F662B261F97F3220023346C /* libgmp.la in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B091F97F3030023346C /* libgmp.la */; };
-		1F662B271F97F3220023346C /* libgmp.10.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B0A1F97F3030023346C /* libgmp.10.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F662B281F97F3220023346C /* libgmpxx.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B0B1F97F3030023346C /* libgmpxx.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F662B2B1F97F33E0023346C /* gmp.info-1 in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B0E1F97F3030023346C /* gmp.info-1 */; };
-		1F662B2C1F97F33E0023346C /* gmp.info in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B0F1F97F3030023346C /* gmp.info */; };
-		1F662B2D1F97F33E0023346C /* gmp.info-2 in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B101F97F3030023346C /* gmp.info-2 */; };
-		1F662B2E1F97F33E0023346C /* dir in Copy Prefix — share/info */ = {isa = PBXBuildFile; fileRef = 1F662B111F97F3030023346C /* dir */; };
 		1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */; };
 		1F8A5A941F993B3000CB0AC9 /* vecLibFort-0.4.2.tar.gz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */; };
 		1F8A5A9B1F993B5500CB0AC9 /* libvecLibFort.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */; };
@@ -86,13 +59,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F102C191F997E470074DFF0;
 			remoteInfo = metis;
-		};
-		1F662AFC1F97F2E20023346C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F662AD81F97E9E80023346C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F662AED1F97ECBC0023346C;
-			remoteInfo = gmp;
 		};
 		1F8A5A8C1F99397E00CB0AC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -127,8 +93,6 @@
 			dstSubfolderSpec = 1;
 			files = (
 				1F102C3A1F9980BD0074DFF0 /* metis.h in Copy Prefix — include */,
-				1F662B1E1F97F3100023346C /* gmpxx.h in Copy Prefix — include */,
-				1F662B1F1F97F3100023346C /* gmp.h in Copy Prefix — include */,
 			);
 			name = "Copy Prefix — include";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,14 +104,6 @@
 			dstSubfolderSpec = 1;
 			files = (
 				1F102C3B1F9980C60074DFF0 /* libmetis.dylib in Copy Prefix — lib */,
-				1F662B211F97F3220023346C /* libgmpxx.4.dylib in Copy Prefix — lib */,
-				1F662B221F97F3220023346C /* libgmpxx.la in Copy Prefix — lib */,
-				1F662B231F97F3220023346C /* libgmp.a in Copy Prefix — lib */,
-				1F662B241F97F3220023346C /* libgmp.dylib in Copy Prefix — lib */,
-				1F662B251F97F3220023346C /* libgmpxx.a in Copy Prefix — lib */,
-				1F662B261F97F3220023346C /* libgmp.la in Copy Prefix — lib */,
-				1F662B271F97F3220023346C /* libgmp.10.dylib in Copy Prefix — lib */,
-				1F662B281F97F3220023346C /* libgmpxx.dylib in Copy Prefix — lib */,
 				1F8A5A9B1F993B5500CB0AC9 /* libvecLibFort.a in Copy Prefix — lib */,
 				1F8A5A9C1F993B5500CB0AC9 /* libvecLibFort.dylib in Copy Prefix — lib */,
 				1F8A5A9D1F993B5500CB0AC9 /* libvecLibFortI.dylib in Copy Prefix — lib */,
@@ -161,10 +117,6 @@
 			dstPath = Contents/Prefix/share/info;
 			dstSubfolderSpec = 1;
 			files = (
-				1F662B2B1F97F33E0023346C /* gmp.info-1 in Copy Prefix — share/info */,
-				1F662B2C1F97F33E0023346C /* gmp.info in Copy Prefix — share/info */,
-				1F662B2D1F97F33E0023346C /* gmp.info-2 in Copy Prefix — share/info */,
-				1F662B2E1F97F33E0023346C /* dir in Copy Prefix — share/info */,
 			);
 			name = "Copy Prefix — share/info";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,23 +152,6 @@
 		1F102C3D1F99826C0074DFF0 /* 0001-install-name.p1.patch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "0001-install-name.p1.patch"; sourceTree = "<group>"; };
 		1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Octave-4.2.1.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F662AE51F97EA1F0023346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F662AEC1F97EBA20023346C /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
-		1F662AF31F97ED740023346C /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
-		1F662AFA1F97F0470023346C /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
-		1F662B011F97F3030023346C /* gmpxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmpxx.h; sourceTree = "<group>"; };
-		1F662B021F97F3030023346C /* gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmp.h; sourceTree = "<group>"; };
-		1F662B041F97F3030023346C /* libgmpxx.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmpxx.4.dylib; sourceTree = "<group>"; };
-		1F662B051F97F3030023346C /* libgmpxx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libgmpxx.la; sourceTree = "<group>"; };
-		1F662B061F97F3030023346C /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp.a; sourceTree = "<group>"; };
-		1F662B071F97F3030023346C /* libgmp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmp.dylib; sourceTree = "<group>"; };
-		1F662B081F97F3030023346C /* libgmpxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmpxx.a; sourceTree = "<group>"; };
-		1F662B091F97F3030023346C /* libgmp.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libgmp.la; sourceTree = "<group>"; };
-		1F662B0A1F97F3030023346C /* libgmp.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmp.10.dylib; sourceTree = "<group>"; };
-		1F662B0B1F97F3030023346C /* libgmpxx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgmpxx.dylib; sourceTree = "<group>"; };
-		1F662B0E1F97F3030023346C /* gmp.info-1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmp.info-1"; sourceTree = "<group>"; };
-		1F662B0F1F97F3030023346C /* gmp.info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gmp.info; sourceTree = "<group>"; };
-		1F662B101F97F3030023346C /* gmp.info-2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gmp.info-2"; sourceTree = "<group>"; };
-		1F662B111F97F3030023346C /* dir */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dir; sourceTree = "<group>"; };
 		1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gmp-6.1.2.tar.xz"; sourceTree = "<group>"; };
 		1F8A5A861F99390800CB0AC9 /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
 		1F8A5A8E1F9939A500CB0AC9 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
@@ -327,83 +262,18 @@
 			children = (
 				1F102C171F997E0F0074DFF0 /* metis */,
 				1F8A5A851F9938F900CB0AC9 /* veclibfort */,
-				1F662AEA1F97EAF20023346C /* gmp */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		1F662AEA1F97EAF20023346C /* gmp */ = {
-			isa = PBXGroup;
-			children = (
-				1F662AEC1F97EBA20023346C /* download.sh */,
-				1F662AF31F97ED740023346C /* build.sh */,
-				1F662AFA1F97F0470023346C /* install.sh */,
-			);
-			path = gmp;
 			sourceTree = "<group>";
 		};
 		1F662AF71F97EFFA0023346C /* BuildOutputs */ = {
 			isa = PBXGroup;
 			children = (
 				1F662B301F97F3990023346C /* Tarballs */,
-				1F662AFF1F97F3030023346C /* gmp */,
 				1F8A5A961F993B4100CB0AC9 /* veclibfort */,
 				1F102C261F9980840074DFF0 /* metis */,
 			);
 			path = BuildOutputs;
-			sourceTree = "<group>";
-		};
-		1F662AFF1F97F3030023346C /* gmp */ = {
-			isa = PBXGroup;
-			children = (
-				1F662B001F97F3030023346C /* include */,
-				1F662B031F97F3030023346C /* lib */,
-				1F662B0C1F97F3030023346C /* share */,
-			);
-			path = gmp;
-			sourceTree = "<group>";
-		};
-		1F662B001F97F3030023346C /* include */ = {
-			isa = PBXGroup;
-			children = (
-				1F662B011F97F3030023346C /* gmpxx.h */,
-				1F662B021F97F3030023346C /* gmp.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		1F662B031F97F3030023346C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				1F662B041F97F3030023346C /* libgmpxx.4.dylib */,
-				1F662B051F97F3030023346C /* libgmpxx.la */,
-				1F662B061F97F3030023346C /* libgmp.a */,
-				1F662B071F97F3030023346C /* libgmp.dylib */,
-				1F662B081F97F3030023346C /* libgmpxx.a */,
-				1F662B091F97F3030023346C /* libgmp.la */,
-				1F662B0A1F97F3030023346C /* libgmp.10.dylib */,
-				1F662B0B1F97F3030023346C /* libgmpxx.dylib */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		1F662B0C1F97F3030023346C /* share */ = {
-			isa = PBXGroup;
-			children = (
-				1F662B0D1F97F3030023346C /* info */,
-			);
-			path = share;
-			sourceTree = "<group>";
-		};
-		1F662B0D1F97F3030023346C /* info */ = {
-			isa = PBXGroup;
-			children = (
-				1F662B0E1F97F3030023346C /* gmp.info-1 */,
-				1F662B0F1F97F3030023346C /* gmp.info */,
-				1F662B101F97F3030023346C /* gmp.info-2 */,
-				1F662B111F97F3030023346C /* dir */,
-			);
-			path = info;
 			sourceTree = "<group>";
 		};
 		1F662B301F97F3990023346C /* Tarballs */ = {
@@ -465,7 +335,6 @@
 			dependencies = (
 				1F102C201F997E7F0074DFF0 /* PBXTargetDependency */,
 				1F8A5A8D1F99397E00CB0AC9 /* PBXTargetDependency */,
-				1F662AFD1F97F2E20023346C /* PBXTargetDependency */,
 			);
 			name = "Octave-4.2.1";
 			productName = "Octave-4.2.1";
@@ -490,10 +359,6 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					1F662AED1F97ECBC0023346C = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 					1F8A5A871F99394A00CB0AC9 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -513,7 +378,6 @@
 			projectRoot = "";
 			targets = (
 				1F662AE11F97EA1F0023346C /* Octave-4.2.1 */,
-				1F662AED1F97ECBC0023346C /* gmp */,
 				1F8A5A871F99394A00CB0AC9 /* veclibfort */,
 				1F102C191F997E470074DFF0 /* metis */,
 			);
@@ -582,59 +446,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = ". \"${SRCROOT}/Components/metis/install.sh\"";
-			showEnvVarsInLog = 0;
-		};
-		1F662AF11F97ECC70023346C /* Download */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Components/gmp/download.sh",
-			);
-			name = Download;
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ". \"${SRCROOT}/Components/gmp/download.sh\"";
-			showEnvVarsInLog = 0;
-		};
-		1F662AF41F97EE090023346C /* Build */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
-				"$(SRCROOT)/Components/gmp/build.sh",
-			);
-			name = Build;
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/build.done",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ". \"${SRCROOT}/Components/gmp/build.sh\"";
-			showEnvVarsInLog = 0;
-		};
-		1F662AFB1F97F0720023346C /* Install */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(DERIVED_FILE_DIR)/build.done",
-				"$(SRCROOT)/Components/gmp/install.sh",
-			);
-			name = Install;
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/install.done",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ". \"${SRCROOT}/Components/gmp/install.sh\"";
 			showEnvVarsInLog = 0;
 		};
 		1F8A5A8B1F99394C00CB0AC9 /* Download */ = {
@@ -707,11 +518,6 @@
 			isa = PBXTargetDependency;
 			target = 1F102C191F997E470074DFF0 /* metis */;
 			targetProxy = 1F102C1F1F997E7F0074DFF0 /* PBXContainerItemProxy */;
-		};
-		1F662AFD1F97F2E20023346C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F662AED1F97ECBC0023346C /* gmp */;
-			targetProxy = 1F662AFC1F97F2E20023346C /* PBXContainerItemProxy */;
 		};
 		1F8A5A8D1F99397E00CB0AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -886,26 +692,6 @@
 			};
 			name = Release;
 		};
-		1F662AEF1F97ECBC0023346C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3P242C9ES5;
-				DOWNLOAD_FILENAME = "gmp-6.1.2.tar.xz";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		1F662AF01F97ECBC0023346C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3P242C9ES5;
-				DOWNLOAD_FILENAME = "gmp-6.1.2.tar.xz";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		1F8A5A891F99394A00CB0AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -950,15 +736,6 @@
 			buildConfigurations = (
 				1F662AE71F97EA1F0023346C /* Debug */,
 				1F662AE81F97EA1F0023346C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F662AEE1F97ECBC0023346C /* Build configuration list for PBXAggregateTarget "gmp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F662AEF1F97ECBC0023346C /* Debug */,
-				1F662AF01F97ECBC0023346C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
