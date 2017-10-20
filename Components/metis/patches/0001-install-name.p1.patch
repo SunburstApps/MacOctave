@@ -1,0 +1,16 @@
+diff --git a/libmetis/CMakeLists.txt b/libmetis/CMakeLists.txt
+index 120e94d..f7e3a69 100644
+--- a/libmetis/CMakeLists.txt
++++ b/libmetis/CMakeLists.txt
+@@ -7,6 +7,11 @@ add_library(metis ${METIS_LIBRARY_TYPE} ${GKlib_sources} ${metis_sources})
+ if(UNIX)
+   target_link_libraries(metis m)
+ endif()
++if(APPLE)
++  set_target_properties(metis PROPERTIES
++    MACOSX_RPATH TRUE
++    INSTALL_NAME_DIR "@loader_path/../lib")
++endif()
+ 
+ if(METIS_INSTALL)
+   install(TARGETS metis

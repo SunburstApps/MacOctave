@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		1F102C191F997E470074DFF0 /* metis */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F102C1A1F997E470074DFF0 /* Build configuration list for PBXAggregateTarget "metis" */;
+			buildPhases = (
+				1F102C1E1F997E610074DFF0 /* Download */,
+				1F102C231F9980070074DFF0 /* Build */,
+				1F102C241F9980270074DFF0 /* Install */,
+			);
+			dependencies = (
+			);
+			name = metis;
+			productName = metis;
+		};
 		1F662AED1F97ECBC0023346C /* gmp */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 1F662AEE1F97ECBC0023346C /* Build configuration list for PBXAggregateTarget "gmp" */;
@@ -36,6 +49,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1F102C321F9980950074DFF0 /* metis-5.1.0.tar.gz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F102C251F99807D0074DFF0 /* metis-5.1.0.tar.gz */; };
+		1F102C341F9980B50074DFF0 /* ndmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C281F9980840074DFF0 /* ndmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F102C351F9980B50074DFF0 /* cmpfillin in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C291F9980840074DFF0 /* cmpfillin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F102C361F9980B50074DFF0 /* m2gmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2A1F9980840074DFF0 /* m2gmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F102C371F9980B50074DFF0 /* mpmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2B1F9980840074DFF0 /* mpmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F102C381F9980B50074DFF0 /* graphchk in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2C1F9980840074DFF0 /* graphchk */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F102C391F9980B50074DFF0 /* gpmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2D1F9980840074DFF0 /* gpmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1F102C3A1F9980BD0074DFF0 /* metis.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F102C2F1F9980840074DFF0 /* metis.h */; };
+		1F102C3B1F9980C60074DFF0 /* libmetis.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F102C311F9980840074DFF0 /* libmetis.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1F662B1E1F97F3100023346C /* gmpxx.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F662B011F97F3030023346C /* gmpxx.h */; };
 		1F662B1F1F97F3100023346C /* gmp.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F662B021F97F3030023346C /* gmp.h */; };
 		1F662B211F97F3220023346C /* libgmpxx.4.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F662B041F97F3030023346C /* libgmpxx.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -58,6 +80,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F102C1F1F997E7F0074DFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F662AD81F97E9E80023346C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F102C191F997E470074DFF0;
+			remoteInfo = metis;
+		};
 		1F662AFC1F97F2E20023346C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F662AD81F97E9E80023346C /* Project object */;
@@ -75,12 +104,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1F102C331F9980A10074DFF0 /* Copy Prefix — bin */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Prefix/bin;
+			dstSubfolderSpec = 1;
+			files = (
+				1F102C341F9980B50074DFF0 /* ndmetis in Copy Prefix — bin */,
+				1F102C351F9980B50074DFF0 /* cmpfillin in Copy Prefix — bin */,
+				1F102C361F9980B50074DFF0 /* m2gmetis in Copy Prefix — bin */,
+				1F102C371F9980B50074DFF0 /* mpmetis in Copy Prefix — bin */,
+				1F102C381F9980B50074DFF0 /* graphchk in Copy Prefix — bin */,
+				1F102C391F9980B50074DFF0 /* gpmetis in Copy Prefix — bin */,
+			);
+			name = "Copy Prefix — bin";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F662AFE1F97F2EA0023346C /* Copy Prefix — include */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = Contents/Prefix/include;
 			dstSubfolderSpec = 1;
 			files = (
+				1F102C3A1F9980BD0074DFF0 /* metis.h in Copy Prefix — include */,
 				1F662B1E1F97F3100023346C /* gmpxx.h in Copy Prefix — include */,
 				1F662B1F1F97F3100023346C /* gmp.h in Copy Prefix — include */,
 			);
@@ -93,6 +139,7 @@
 			dstPath = Contents/Prefix/lib;
 			dstSubfolderSpec = 1;
 			files = (
+				1F102C3B1F9980C60074DFF0 /* libmetis.dylib in Copy Prefix — lib */,
 				1F662B211F97F3220023346C /* libgmpxx.4.dylib in Copy Prefix — lib */,
 				1F662B221F97F3220023346C /* libgmpxx.la in Copy Prefix — lib */,
 				1F662B231F97F3220023346C /* libgmp.a in Copy Prefix — lib */,
@@ -128,6 +175,7 @@
 			dstPath = Sources;
 			dstSubfolderSpec = 7;
 			files = (
+				1F102C321F9980950074DFF0 /* metis-5.1.0.tar.gz in Copy Source Tarballs */,
 				1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */,
 				1F8A5A941F993B3000CB0AC9 /* vecLibFort-0.4.2.tar.gz in Copy Source Tarballs */,
 			);
@@ -137,6 +185,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F102C181F997E1E0074DFF0 /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
+		1F102C211F997ED10074DFF0 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		1F102C221F997F2B0074DFF0 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		1F102C251F99807D0074DFF0 /* metis-5.1.0.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "metis-5.1.0.tar.gz"; sourceTree = "<group>"; };
+		1F102C281F9980840074DFF0 /* ndmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ndmetis; sourceTree = "<group>"; };
+		1F102C291F9980840074DFF0 /* cmpfillin */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cmpfillin; sourceTree = "<group>"; };
+		1F102C2A1F9980840074DFF0 /* m2gmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = m2gmetis; sourceTree = "<group>"; };
+		1F102C2B1F9980840074DFF0 /* mpmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mpmetis; sourceTree = "<group>"; };
+		1F102C2C1F9980840074DFF0 /* graphchk */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = graphchk; sourceTree = "<group>"; };
+		1F102C2D1F9980840074DFF0 /* gpmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gpmetis; sourceTree = "<group>"; };
+		1F102C2F1F9980840074DFF0 /* metis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metis.h; sourceTree = "<group>"; };
+		1F102C311F9980840074DFF0 /* libmetis.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmetis.dylib; sourceTree = "<group>"; };
+		1F102C3D1F99826C0074DFF0 /* 0001-install-name.p1.patch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "0001-install-name.p1.patch"; sourceTree = "<group>"; };
 		1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Octave-4.2.1.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F662AE51F97EA1F0023346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F662AEC1F97EBA20023346C /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
@@ -177,6 +238,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F102C171F997E0F0074DFF0 /* metis */ = {
+			isa = PBXGroup;
+			children = (
+				1F102C3C1F99826C0074DFF0 /* patches */,
+				1F102C181F997E1E0074DFF0 /* download.sh */,
+				1F102C211F997ED10074DFF0 /* build.sh */,
+				1F102C221F997F2B0074DFF0 /* install.sh */,
+			);
+			path = metis;
+			sourceTree = "<group>";
+		};
+		1F102C261F9980840074DFF0 /* metis */ = {
+			isa = PBXGroup;
+			children = (
+				1F102C271F9980840074DFF0 /* bin */,
+				1F102C2E1F9980840074DFF0 /* include */,
+				1F102C301F9980840074DFF0 /* lib */,
+			);
+			path = metis;
+			sourceTree = "<group>";
+		};
+		1F102C271F9980840074DFF0 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				1F102C281F9980840074DFF0 /* ndmetis */,
+				1F102C291F9980840074DFF0 /* cmpfillin */,
+				1F102C2A1F9980840074DFF0 /* m2gmetis */,
+				1F102C2B1F9980840074DFF0 /* mpmetis */,
+				1F102C2C1F9980840074DFF0 /* graphchk */,
+				1F102C2D1F9980840074DFF0 /* gpmetis */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		1F102C2E1F9980840074DFF0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1F102C2F1F9980840074DFF0 /* metis.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1F102C301F9980840074DFF0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F102C311F9980840074DFF0 /* libmetis.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1F102C3C1F99826C0074DFF0 /* patches */ = {
+			isa = PBXGroup;
+			children = (
+				1F102C3D1F99826C0074DFF0 /* 0001-install-name.p1.patch */,
+			);
+			path = patches;
+			sourceTree = "<group>";
+		};
 		1F662AD71F97E9E80023346C = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +325,7 @@
 		1F662AE91F97EAEE0023346C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1F102C171F997E0F0074DFF0 /* metis */,
 				1F8A5A851F9938F900CB0AC9 /* veclibfort */,
 				1F662AEA1F97EAF20023346C /* gmp */,
 			);
@@ -228,6 +348,7 @@
 				1F662B301F97F3990023346C /* Tarballs */,
 				1F662AFF1F97F3030023346C /* gmp */,
 				1F8A5A961F993B4100CB0AC9 /* veclibfort */,
+				1F102C261F9980840074DFF0 /* metis */,
 			);
 			path = BuildOutputs;
 			sourceTree = "<group>";
@@ -288,6 +409,7 @@
 		1F662B301F97F3990023346C /* Tarballs */ = {
 			isa = PBXGroup;
 			children = (
+				1F102C251F99807D0074DFF0 /* metis-5.1.0.tar.gz */,
 				1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */,
 				1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */,
 			);
@@ -332,6 +454,7 @@
 				1F662ADE1F97EA1F0023346C /* Sources */,
 				1F662ADF1F97EA1F0023346C /* Frameworks */,
 				1F662AE01F97EA1F0023346C /* Resources */,
+				1F102C331F9980A10074DFF0 /* Copy Prefix — bin */,
 				1F662AFE1F97F2EA0023346C /* Copy Prefix — include */,
 				1F662B201F97F3120023346C /* Copy Prefix — lib */,
 				1F662B2A1F97F32C0023346C /* Copy Prefix — share/info */,
@@ -340,6 +463,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1F102C201F997E7F0074DFF0 /* PBXTargetDependency */,
 				1F8A5A8D1F99397E00CB0AC9 /* PBXTargetDependency */,
 				1F662AFD1F97F2E20023346C /* PBXTargetDependency */,
 			);
@@ -358,6 +482,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "William Kent";
 				TargetAttributes = {
+					1F102C191F997E470074DFF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					1F662AE11F97EA1F0023346C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -387,6 +515,7 @@
 				1F662AE11F97EA1F0023346C /* Octave-4.2.1 */,
 				1F662AED1F97ECBC0023346C /* gmp */,
 				1F8A5A871F99394A00CB0AC9 /* veclibfort */,
+				1F102C191F997E470074DFF0 /* metis */,
 			);
 		};
 /* End PBXProject section */
@@ -402,6 +531,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F102C1E1F997E610074DFF0 /* Download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Components/metis/download.sh",
+			);
+			name = Download;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/metis/download.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		1F102C231F9980070074DFF0 /* Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Components/metis/build.sh",
+				"$(DERIVED_FILE_DIR)/$(DOWNLOAD_FILENAME)",
+			);
+			name = Build;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/build.done",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/metis/build.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		1F102C241F9980270074DFF0 /* Install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Components/metis/install.sh",
+				"$(DERIVED_FILE_DIR)/build.done",
+			);
+			name = Install;
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/install.done",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/Components/metis/install.sh\"";
+			showEnvVarsInLog = 0;
+		};
 		1F662AF11F97ECC70023346C /* Download */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +703,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F102C201F997E7F0074DFF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F102C191F997E470074DFF0 /* metis */;
+			targetProxy = 1F102C1F1F997E7F0074DFF0 /* PBXContainerItemProxy */;
+		};
 		1F662AFD1F97F2E20023346C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F662AED1F97ECBC0023346C /* gmp */;
@@ -534,6 +721,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F102C1B1F997E470074DFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				DOWNLOAD_FILENAME = "metis-5.1.0.tar.gz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F102C1C1F997E470074DFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				DOWNLOAD_FILENAME = "metis-5.1.0.tar.gz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		1F662ADC1F97E9E80023346C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -720,6 +927,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F102C1A1F997E470074DFF0 /* Build configuration list for PBXAggregateTarget "metis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F102C1B1F997E470074DFF0 /* Debug */,
+				1F102C1C1F997E470074DFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1F662ADB1F97E9E80023346C /* Build configuration list for PBXProject "MacOctave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
