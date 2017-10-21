@@ -17,6 +17,6 @@ else
 	echo "Actual:   ${CHECKSUM}" 1>&2
 
 	rm -f "${DERIVED_FILE_DIR}/${DOWNLOAD_FILENAME}"
-	exit 0
+	exit 1
 fi
 
