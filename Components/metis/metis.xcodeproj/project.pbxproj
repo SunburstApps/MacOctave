@@ -175,24 +175,6 @@
 		1F1E27EB20BA245100C53E2D /* metislib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metislib.h; sourceTree = "<group>"; };
 		1F1E27EC20BA245100C53E2D /* options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
 		1F1E27ED20BA245100C53E2D /* minconn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = minconn.c; sourceTree = "<group>"; };
-		1F1E27EF20BA245100C53E2D /* cmdline_mpmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmdline_mpmetis.c; sourceTree = "<group>"; };
-		1F1E27F020BA245100C53E2D /* defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
-		1F1E27F120BA245100C53E2D /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
-		1F1E27F220BA245100C53E2D /* proto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proto.h; sourceTree = "<group>"; };
-		1F1E27F320BA245100C53E2D /* io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
-		1F1E27F420BA245100C53E2D /* cmdline_gpmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmdline_gpmetis.c; sourceTree = "<group>"; };
-		1F1E27F520BA245100C53E2D /* cmdline_m2gmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmdline_m2gmetis.c; sourceTree = "<group>"; };
-		1F1E27F620BA245100C53E2D /* cmdline_ndmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmdline_ndmetis.c; sourceTree = "<group>"; };
-		1F1E27F720BA245100C53E2D /* m2gmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m2gmetis.c; sourceTree = "<group>"; };
-		1F1E27F820BA245100C53E2D /* struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
-		1F1E27F920BA245100C53E2D /* mpmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mpmetis.c; sourceTree = "<group>"; };
-		1F1E27FA20BA245100C53E2D /* cmpfillin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmpfillin.c; sourceTree = "<group>"; };
-		1F1E27FB20BA245100C53E2D /* metisbin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metisbin.h; sourceTree = "<group>"; };
-		1F1E27FC20BA245100C53E2D /* graphchk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graphchk.c; sourceTree = "<group>"; };
-		1F1E27FD20BA245100C53E2D /* stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stat.c; sourceTree = "<group>"; };
-		1F1E27FE20BA245100C53E2D /* gpmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gpmetis.c; sourceTree = "<group>"; };
-		1F1E27FF20BA245100C53E2D /* smbfactor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smbfactor.c; sourceTree = "<group>"; };
-		1F1E280020BA245100C53E2D /* ndmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ndmetis.c; sourceTree = "<group>"; };
 		1F1E280520BA246100C53E2D /* libmetis.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmetis.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1E280A20BA24A700C53E2D /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		1F1E285120BA265000C53E2D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -216,7 +198,6 @@
 				1F1E285020BA265000C53E2D /* include */,
 				1F1E278220BA245100C53E2D /* GKlib */,
 				1F1E27C020BA245100C53E2D /* libmetis */,
-				1F1E27EE20BA245100C53E2D /* programs */,
 				1F1E280620BA246100C53E2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -353,31 +334,6 @@
 				1F1E27ED20BA245100C53E2D /* minconn.c */,
 			);
 			path = libmetis;
-			sourceTree = "<group>";
-		};
-		1F1E27EE20BA245100C53E2D /* programs */ = {
-			isa = PBXGroup;
-			children = (
-				1F1E27EF20BA245100C53E2D /* cmdline_mpmetis.c */,
-				1F1E27F020BA245100C53E2D /* defs.h */,
-				1F1E27F120BA245100C53E2D /* CMakeLists.txt */,
-				1F1E27F220BA245100C53E2D /* proto.h */,
-				1F1E27F320BA245100C53E2D /* io.c */,
-				1F1E27F420BA245100C53E2D /* cmdline_gpmetis.c */,
-				1F1E27F520BA245100C53E2D /* cmdline_m2gmetis.c */,
-				1F1E27F620BA245100C53E2D /* cmdline_ndmetis.c */,
-				1F1E27F720BA245100C53E2D /* m2gmetis.c */,
-				1F1E27F820BA245100C53E2D /* struct.h */,
-				1F1E27F920BA245100C53E2D /* mpmetis.c */,
-				1F1E27FA20BA245100C53E2D /* cmpfillin.c */,
-				1F1E27FB20BA245100C53E2D /* metisbin.h */,
-				1F1E27FC20BA245100C53E2D /* graphchk.c */,
-				1F1E27FD20BA245100C53E2D /* stat.c */,
-				1F1E27FE20BA245100C53E2D /* gpmetis.c */,
-				1F1E27FF20BA245100C53E2D /* smbfactor.c */,
-				1F1E280020BA245100C53E2D /* ndmetis.c */,
-			);
-			path = programs;
 			sourceTree = "<group>";
 		};
 		1F1E280620BA246100C53E2D /* Products */ = {
