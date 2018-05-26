@@ -6,6 +6,16 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		1F1E282B20BA254500C53E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1E277F20BA234A00C53E2D /* metis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1E280520BA246100C53E2D;
+			remoteInfo = libmetis;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1F1E277F20BA234A00C53E2D /* metis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = metis.xcodeproj; path = Components/metis/metis.xcodeproj; sourceTree = "<group>"; };
 		1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Octave-4.2.1.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +44,7 @@
 		1F1E278020BA234A00C53E2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				1F1E282C20BA254500C53E2D /* libmetis.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +132,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1F1E282C20BA254500C53E2D /* libmetis.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libmetis.dylib;
+			remoteRef = 1F1E282B20BA254500C53E2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1F662AE01F97EA1F0023346C /* Resources */ = {
