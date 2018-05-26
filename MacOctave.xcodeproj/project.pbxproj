@@ -35,23 +35,6 @@
 		};
 /* End PBXAggregateTarget section */
 
-/* Begin PBXBuildFile section */
-		1F102C321F9980950074DFF0 /* metis-5.1.0.tar.gz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F102C251F99807D0074DFF0 /* metis-5.1.0.tar.gz */; };
-		1F102C341F9980B50074DFF0 /* ndmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C281F9980840074DFF0 /* ndmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F102C351F9980B50074DFF0 /* cmpfillin in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C291F9980840074DFF0 /* cmpfillin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F102C361F9980B50074DFF0 /* m2gmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2A1F9980840074DFF0 /* m2gmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F102C371F9980B50074DFF0 /* mpmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2B1F9980840074DFF0 /* mpmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F102C381F9980B50074DFF0 /* graphchk in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2C1F9980840074DFF0 /* graphchk */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F102C391F9980B50074DFF0 /* gpmetis in Copy Prefix — bin */ = {isa = PBXBuildFile; fileRef = 1F102C2D1F9980840074DFF0 /* gpmetis */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F102C3A1F9980BD0074DFF0 /* metis.h in Copy Prefix — include */ = {isa = PBXBuildFile; fileRef = 1F102C2F1F9980840074DFF0 /* metis.h */; };
-		1F102C3B1F9980C60074DFF0 /* libmetis.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F102C311F9980840074DFF0 /* libmetis.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */; };
-		1F8A5A941F993B3000CB0AC9 /* vecLibFort-0.4.2.tar.gz in Copy Source Tarballs */ = {isa = PBXBuildFile; fileRef = 1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */; };
-		1F8A5A9B1F993B5500CB0AC9 /* libvecLibFort.a in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */; };
-		1F8A5A9C1F993B5500CB0AC9 /* libvecLibFort.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A991F993B4100CB0AC9 /* libvecLibFort.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1F8A5A9D1F993B5500CB0AC9 /* libvecLibFortI.dylib in Copy Prefix — lib */ = {isa = PBXBuildFile; fileRef = 1F8A5A9A1F993B4100CB0AC9 /* libvecLibFortI.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		1F102C1F1F997E7F0074DFF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -76,12 +59,6 @@
 			dstPath = Contents/Prefix/bin;
 			dstSubfolderSpec = 1;
 			files = (
-				1F102C341F9980B50074DFF0 /* ndmetis in Copy Prefix — bin */,
-				1F102C351F9980B50074DFF0 /* cmpfillin in Copy Prefix — bin */,
-				1F102C361F9980B50074DFF0 /* m2gmetis in Copy Prefix — bin */,
-				1F102C371F9980B50074DFF0 /* mpmetis in Copy Prefix — bin */,
-				1F102C381F9980B50074DFF0 /* graphchk in Copy Prefix — bin */,
-				1F102C391F9980B50074DFF0 /* gpmetis in Copy Prefix — bin */,
 			);
 			name = "Copy Prefix — bin";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +69,6 @@
 			dstPath = Contents/Prefix/include;
 			dstSubfolderSpec = 1;
 			files = (
-				1F102C3A1F9980BD0074DFF0 /* metis.h in Copy Prefix — include */,
 			);
 			name = "Copy Prefix — include";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,10 +79,6 @@
 			dstPath = Contents/Prefix/lib;
 			dstSubfolderSpec = 1;
 			files = (
-				1F102C3B1F9980C60074DFF0 /* libmetis.dylib in Copy Prefix — lib */,
-				1F8A5A9B1F993B5500CB0AC9 /* libvecLibFort.a in Copy Prefix — lib */,
-				1F8A5A9C1F993B5500CB0AC9 /* libvecLibFort.dylib in Copy Prefix — lib */,
-				1F8A5A9D1F993B5500CB0AC9 /* libvecLibFortI.dylib in Copy Prefix — lib */,
 			);
 			name = "Copy Prefix — lib";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,9 +99,6 @@
 			dstPath = Sources;
 			dstSubfolderSpec = 7;
 			files = (
-				1F102C321F9980950074DFF0 /* metis-5.1.0.tar.gz in Copy Source Tarballs */,
-				1F662B341F97F3AB0023346C /* gmp-6.1.2.tar.xz in Copy Source Tarballs */,
-				1F8A5A941F993B3000CB0AC9 /* vecLibFort-0.4.2.tar.gz in Copy Source Tarballs */,
 			);
 			name = "Copy Source Tarballs";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,29 +106,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F102C181F997E1E0074DFF0 /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
-		1F102C211F997ED10074DFF0 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
-		1F102C221F997F2B0074DFF0 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
-		1F102C251F99807D0074DFF0 /* metis-5.1.0.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "metis-5.1.0.tar.gz"; sourceTree = "<group>"; };
-		1F102C281F9980840074DFF0 /* ndmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ndmetis; sourceTree = "<group>"; };
-		1F102C291F9980840074DFF0 /* cmpfillin */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cmpfillin; sourceTree = "<group>"; };
-		1F102C2A1F9980840074DFF0 /* m2gmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = m2gmetis; sourceTree = "<group>"; };
-		1F102C2B1F9980840074DFF0 /* mpmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mpmetis; sourceTree = "<group>"; };
-		1F102C2C1F9980840074DFF0 /* graphchk */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = graphchk; sourceTree = "<group>"; };
-		1F102C2D1F9980840074DFF0 /* gpmetis */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gpmetis; sourceTree = "<group>"; };
-		1F102C2F1F9980840074DFF0 /* metis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metis.h; sourceTree = "<group>"; };
-		1F102C311F9980840074DFF0 /* libmetis.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmetis.dylib; sourceTree = "<group>"; };
-		1F102C3D1F99826C0074DFF0 /* 0001-install-name.p1.patch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "0001-install-name.p1.patch"; sourceTree = "<group>"; };
 		1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Octave-4.2.1.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F662AE51F97EA1F0023346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gmp-6.1.2.tar.xz"; sourceTree = "<group>"; };
-		1F8A5A861F99390800CB0AC9 /* download.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
-		1F8A5A8E1F9939A500CB0AC9 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
-		1F8A5A8F1F993A1400CB0AC9 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
-		1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "vecLibFort-0.4.2.tar.gz"; sourceTree = "<group>"; };
-		1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvecLibFort.a; sourceTree = "<group>"; };
-		1F8A5A991F993B4100CB0AC9 /* libvecLibFort.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libvecLibFort.dylib; sourceTree = "<group>"; };
-		1F8A5A9A1F993B4100CB0AC9 /* libvecLibFortI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libvecLibFortI.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,69 +121,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F102C171F997E0F0074DFF0 /* metis */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C3C1F99826C0074DFF0 /* patches */,
-				1F102C181F997E1E0074DFF0 /* download.sh */,
-				1F102C211F997ED10074DFF0 /* build.sh */,
-				1F102C221F997F2B0074DFF0 /* install.sh */,
-			);
-			path = metis;
-			sourceTree = "<group>";
-		};
-		1F102C261F9980840074DFF0 /* metis */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C271F9980840074DFF0 /* bin */,
-				1F102C2E1F9980840074DFF0 /* include */,
-				1F102C301F9980840074DFF0 /* lib */,
-			);
-			path = metis;
-			sourceTree = "<group>";
-		};
-		1F102C271F9980840074DFF0 /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C281F9980840074DFF0 /* ndmetis */,
-				1F102C291F9980840074DFF0 /* cmpfillin */,
-				1F102C2A1F9980840074DFF0 /* m2gmetis */,
-				1F102C2B1F9980840074DFF0 /* mpmetis */,
-				1F102C2C1F9980840074DFF0 /* graphchk */,
-				1F102C2D1F9980840074DFF0 /* gpmetis */,
-			);
-			path = bin;
-			sourceTree = "<group>";
-		};
-		1F102C2E1F9980840074DFF0 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C2F1F9980840074DFF0 /* metis.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		1F102C301F9980840074DFF0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C311F9980840074DFF0 /* libmetis.dylib */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		1F102C3C1F99826C0074DFF0 /* patches */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C3D1F99826C0074DFF0 /* 0001-install-name.p1.patch */,
-			);
-			path = patches;
-			sourceTree = "<group>";
-		};
 		1F662AD71F97E9E80023346C = {
 			isa = PBXGroup;
 			children = (
-				1F662AF71F97EFFA0023346C /* BuildOutputs */,
-				1F662AE91F97EAEE0023346C /* Components */,
 				1F662AE41F97EA1F0023346C /* DistBundle */,
 				1F662AE31F97EA1F0023346C /* Products */,
 			);
@@ -255,63 +143,6 @@
 				1F662AE51F97EA1F0023346C /* Info.plist */,
 			);
 			path = DistBundle;
-			sourceTree = "<group>";
-		};
-		1F662AE91F97EAEE0023346C /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C171F997E0F0074DFF0 /* metis */,
-				1F8A5A851F9938F900CB0AC9 /* veclibfort */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		1F662AF71F97EFFA0023346C /* BuildOutputs */ = {
-			isa = PBXGroup;
-			children = (
-				1F662B301F97F3990023346C /* Tarballs */,
-				1F8A5A961F993B4100CB0AC9 /* veclibfort */,
-				1F102C261F9980840074DFF0 /* metis */,
-			);
-			path = BuildOutputs;
-			sourceTree = "<group>";
-		};
-		1F662B301F97F3990023346C /* Tarballs */ = {
-			isa = PBXGroup;
-			children = (
-				1F102C251F99807D0074DFF0 /* metis-5.1.0.tar.gz */,
-				1F8A5A921F993B2000CB0AC9 /* vecLibFort-0.4.2.tar.gz */,
-				1F662B311F97F3990023346C /* gmp-6.1.2.tar.xz */,
-			);
-			path = Tarballs;
-			sourceTree = "<group>";
-		};
-		1F8A5A851F9938F900CB0AC9 /* veclibfort */ = {
-			isa = PBXGroup;
-			children = (
-				1F8A5A861F99390800CB0AC9 /* download.sh */,
-				1F8A5A8E1F9939A500CB0AC9 /* build.sh */,
-				1F8A5A8F1F993A1400CB0AC9 /* install.sh */,
-			);
-			path = veclibfort;
-			sourceTree = "<group>";
-		};
-		1F8A5A961F993B4100CB0AC9 /* veclibfort */ = {
-			isa = PBXGroup;
-			children = (
-				1F8A5A971F993B4100CB0AC9 /* lib */,
-			);
-			path = veclibfort;
-			sourceTree = "<group>";
-		};
-		1F8A5A971F993B4100CB0AC9 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				1F8A5A981F993B4100CB0AC9 /* libvecLibFort.a */,
-				1F8A5A991F993B4100CB0AC9 /* libvecLibFort.dylib */,
-				1F8A5A9A1F993B4100CB0AC9 /* libvecLibFortI.dylib */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
