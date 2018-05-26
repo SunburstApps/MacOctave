@@ -106,6 +106,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F1E277F20BA234A00C53E2D /* metis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = metis.xcodeproj; path = Components/metis/metis.xcodeproj; sourceTree = "<group>"; };
 		1F662AE21F97EA1F0023346C /* Octave-4.2.1.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Octave-4.2.1.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F662AE51F97EA1F0023346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,9 +122,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1E277E20BA234100C53E2D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1F1E277F20BA234A00C53E2D /* metis.xcodeproj */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		1F1E278020BA234A00C53E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1F662AD71F97E9E80023346C = {
 			isa = PBXGroup;
 			children = (
+				1F1E277E20BA234100C53E2D /* Components */,
 				1F662AE41F97EA1F0023346C /* DistBundle */,
 				1F662AE31F97EA1F0023346C /* Products */,
 			);
@@ -206,6 +223,12 @@
 			mainGroup = 1F662AD71F97E9E80023346C;
 			productRefGroup = 1F662AE31F97EA1F0023346C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F1E278020BA234A00C53E2D /* Products */;
+					ProjectRef = 1F1E277F20BA234A00C53E2D /* metis.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1F662AE11F97EA1F0023346C /* Octave-4.2.1 */,
