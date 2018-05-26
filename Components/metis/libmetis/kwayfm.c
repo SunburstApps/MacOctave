@@ -66,7 +66,7 @@ void Greedy_KWayCutOptimize(ctrl_t *ctrl, graph_t *graph, idx_t niter,
   idx_t *xadj, *adjncy, *adjwgt;
   idx_t *where, *pwgts, *perm, *bndptr, *bndind, *minwgt, *maxwgt, *itpwgts;
   idx_t nmoved, nupd, *vstatus, *updptr, *updind;
-  idx_t maxndoms, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
+  idx_t maxndoms = 0, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
   idx_t *bfslvl=NULL, *bfsind=NULL, *bfsmrk=NULL;
   idx_t bndtype = (omode == OMODE_REFINE ? BNDTYPE_REFINE : BNDTYPE_BALANCE);
 
@@ -376,7 +376,7 @@ void Greedy_KWayVolOptimize(ctrl_t *ctrl, graph_t *graph, idx_t niter,
   idx_t *xadj, *adjncy;
   idx_t *where, *pwgts, *perm, *bndptr, *bndind, *minwgt, *maxwgt, *itpwgts;
   idx_t nmoved, nupd, *vstatus, *updptr, *updind;
-  idx_t maxndoms, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
+  idx_t maxndoms = 0, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
   idx_t *bfslvl=NULL, *bfsind=NULL, *bfsmrk=NULL;
   idx_t bndtype = (omode == OMODE_REFINE ? BNDTYPE_REFINE : BNDTYPE_BALANCE);
 
@@ -686,11 +686,11 @@ void Greedy_McKWayCutOptimize(ctrl_t *ctrl, graph_t *graph, idx_t niter,
 {
   /* Common variables to all types of kway-refinement/balancing routines */
   idx_t i, ii, iii, j, k, l, pass, nvtxs, ncon, nparts, gain; 
-  idx_t from, me, to, cto, oldcut;
+  idx_t from, me, to = 0, cto, oldcut;
   idx_t *xadj, *vwgt, *adjncy, *adjwgt;
   idx_t *where, *pwgts, *perm, *bndptr, *bndind, *minwgt, *maxwgt;
   idx_t nmoved, nupd, *vstatus, *updptr, *updind;
-  idx_t maxndoms, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
+  idx_t maxndoms = 0, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
   idx_t *bfslvl=NULL, *bfsind=NULL, *bfsmrk=NULL;
   idx_t bndtype = (omode == OMODE_REFINE ? BNDTYPE_REFINE : BNDTYPE_BALANCE);
   real_t *ubfactors, *pijbm;
@@ -1028,11 +1028,11 @@ void Greedy_McKWayVolOptimize(ctrl_t *ctrl, graph_t *graph, idx_t niter,
 {
   /* Common variables to all types of kway-refinement/balancing routines */
   idx_t i, ii, iii, j, k, l, pass, nvtxs, ncon, nparts, gain; 
-  idx_t from, me, to, cto, oldcut;
+  idx_t from, me, to = 0, cto, oldcut;
   idx_t *xadj, *vwgt, *adjncy;
   idx_t *where, *pwgts, *perm, *bndptr, *bndind, *minwgt, *maxwgt;
   idx_t nmoved, nupd, *vstatus, *updptr, *updind;
-  idx_t maxndoms, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
+  idx_t maxndoms = 0, *safetos=NULL, *nads=NULL, *doms=NULL, **adids=NULL, **adwgts=NULL;
   idx_t *bfslvl=NULL, *bfsind=NULL, *bfsmrk=NULL;
   idx_t bndtype = (omode == OMODE_REFINE ? BNDTYPE_REFINE : BNDTYPE_BALANCE);
   real_t *ubfactors, *pijbm;

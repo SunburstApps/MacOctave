@@ -29,9 +29,9 @@ int METIS_NodeNDP(idx_t nvtxs, idx_t *xadj, idx_t *adjncy, idx_t *vwgt,
            idx_t npes, idx_t *options, idx_t *perm, idx_t *iperm, idx_t *sizes) 
 {
   idx_t i, ii, j, l, nnvtxs=0;
-  graph_t *graph;
+  graph_t *graph = NULL;
   ctrl_t *ctrl;
-  idx_t *cptr, *cind;
+  idx_t *cptr = NULL, *cind = NULL;
 
   ctrl = SetupCtrl(METIS_OP_OMETIS, options, 1, 3, NULL, NULL);
   if (!ctrl) return METIS_ERROR_INPUT;
