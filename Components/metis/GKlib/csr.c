@@ -349,7 +349,7 @@ gk_csr_t **gk_csr_Split(gk_csr_t *mat, int *color)
 gk_csr_t *gk_csr_Read(char *filename, int format, int readvals, int numbering)
 {
   ssize_t i, k, l;
-  size_t nfields, nrows, ncols, nnz, fmt, ncon;
+  size_t nfields, nrows, ncols, nnz, fmt, ncon = 0;
   size_t lnlen;
   ssize_t *rowptr;
   int *rowind, ival;
