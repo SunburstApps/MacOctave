@@ -33,6 +33,42 @@
 		1F1E282720BA24C500C53E2D /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27B920BA245100C53E2D /* getopt.c */; };
 		1F1E282820BA24C500C53E2D /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27BC20BA245100C53E2D /* tokenizer.c */; };
 		1F1E282920BA24C900C53E2D /* rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27BE20BA245100C53E2D /* rw.c */; };
+		1F1E282D20BA25EE00C53E2D /* kwayrefine.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C220BA245100C53E2D /* kwayrefine.c */; };
+		1F1E282E20BA25EE00C53E2D /* mincover.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C320BA245100C53E2D /* mincover.c */; };
+		1F1E282F20BA25EE00C53E2D /* bucketsort.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C420BA245100C53E2D /* bucketsort.c */; };
+		1F1E283020BA25EE00C53E2D /* parmetis.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C720BA245100C53E2D /* parmetis.c */; };
+		1F1E283120BA25EE00C53E2D /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27C820BA245100C53E2D /* util.c */; };
+		1F1E283220BA25EE00C53E2D /* kmetis.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27CA20BA245100C53E2D /* kmetis.c */; };
+		1F1E283320BA25EE00C53E2D /* meshpart.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27CB20BA245100C53E2D /* meshpart.c */; };
+		1F1E283420BA25EE00C53E2D /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27CC20BA245100C53E2D /* compress.c */; };
+		1F1E283520BA25EE00C53E2D /* gklib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27CD20BA245100C53E2D /* gklib.c */; };
+		1F1E283620BA25EE00C53E2D /* auxapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27CE20BA245100C53E2D /* auxapi.c */; };
+		1F1E283720BA25EE00C53E2D /* separator.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27CF20BA245100C53E2D /* separator.c */; };
+		1F1E283820BA25EE00C53E2D /* frename.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D020BA245100C53E2D /* frename.c */; };
+		1F1E283920BA25EE00C53E2D /* mcutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D120BA245100C53E2D /* mcutil.c */; };
+		1F1E283A20BA25EE00C53E2D /* ometis.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D220BA245100C53E2D /* ometis.c */; };
+		1F1E283B20BA25EE00C53E2D /* wspace.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D320BA245100C53E2D /* wspace.c */; };
+		1F1E283C20BA25EE00C53E2D /* sfm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D420BA245100C53E2D /* sfm.c */; };
+		1F1E283D20BA25EE00C53E2D /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D720BA245100C53E2D /* debug.c */; };
+		1F1E283E20BA25EE00C53E2D /* balance.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D820BA245100C53E2D /* balance.c */; };
+		1F1E283F20BA25EE00C53E2D /* pmetis.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27D920BA245100C53E2D /* pmetis.c */; };
+		1F1E284020BA25EE00C53E2D /* mmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27DA20BA245100C53E2D /* mmd.c */; };
+		1F1E284120BA25EE00C53E2D /* refine.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27DB20BA245100C53E2D /* refine.c */; };
+		1F1E284220BA25EE00C53E2D /* contig.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27DC20BA245100C53E2D /* contig.c */; };
+		1F1E284320BA25EE00C53E2D /* coarsen.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27DF20BA245100C53E2D /* coarsen.c */; };
+		1F1E284420BA25EE00C53E2D /* kwayfm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E120BA245100C53E2D /* kwayfm.c */; };
+		1F1E284520BA25EE00C53E2D /* stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E220BA245100C53E2D /* stat.c */; };
+		1F1E284620BA25EE00C53E2D /* checkgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E320BA245100C53E2D /* checkgraph.c */; };
+		1F1E284720BA25EE00C53E2D /* timing.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E420BA245100C53E2D /* timing.c */; };
+		1F1E284820BA25EE00C53E2D /* fm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E520BA245100C53E2D /* fm.c */; };
+		1F1E284920BA25EE00C53E2D /* fortran.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E620BA245100C53E2D /* fortran.c */; };
+		1F1E284A20BA25EE00C53E2D /* initpart.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E720BA245100C53E2D /* initpart.c */; };
+		1F1E284B20BA25EE00C53E2D /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E820BA245100C53E2D /* graph.c */; };
+		1F1E284C20BA25EE00C53E2D /* srefine.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27E920BA245100C53E2D /* srefine.c */; };
+		1F1E284D20BA25EE00C53E2D /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27EA20BA245100C53E2D /* mesh.c */; };
+		1F1E284E20BA25EE00C53E2D /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27EC20BA245100C53E2D /* options.c */; };
+		1F1E284F20BA25EE00C53E2D /* minconn.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E27ED20BA245100C53E2D /* minconn.c */; };
+		1F1E285320BA265000C53E2D /* metis.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1E285220BA265000C53E2D /* metis.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +195,8 @@
 		1F1E280020BA245100C53E2D /* ndmetis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ndmetis.c; sourceTree = "<group>"; };
 		1F1E280520BA246100C53E2D /* libmetis.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmetis.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1E280A20BA24A700C53E2D /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1F1E285120BA265000C53E2D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		1F1E285220BA265000C53E2D /* metis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metis.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +213,7 @@
 		1F1E277420BA22E300C53E2D = {
 			isa = PBXGroup;
 			children = (
+				1F1E285020BA265000C53E2D /* include */,
 				1F1E278220BA245100C53E2D /* GKlib */,
 				1F1E27C020BA245100C53E2D /* libmetis */,
 				1F1E27EE20BA245100C53E2D /* programs */,
@@ -349,6 +388,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1F1E285020BA265000C53E2D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1F1E285120BA265000C53E2D /* CMakeLists.txt */,
+				1F1E285220BA265000C53E2D /* metis.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -356,6 +404,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1E285320BA265000C53E2D /* metis.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,32 +465,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1E284820BA25EE00C53E2D /* fm.c in Sources */,
+				1F1E283D20BA25EE00C53E2D /* debug.c in Sources */,
+				1F1E284D20BA25EE00C53E2D /* mesh.c in Sources */,
 				1F1E281E20BA24C500C53E2D /* pdb.c in Sources */,
 				1F1E281D20BA24C500C53E2D /* fs.c in Sources */,
 				1F1E282320BA24C500C53E2D /* b64.c in Sources */,
+				1F1E283B20BA25EE00C53E2D /* wspace.c in Sources */,
+				1F1E284A20BA25EE00C53E2D /* initpart.c in Sources */,
 				1F1E282420BA24C500C53E2D /* mcore.c in Sources */,
+				1F1E284920BA25EE00C53E2D /* fortran.c in Sources */,
 				1F1E282720BA24C500C53E2D /* getopt.c in Sources */,
+				1F1E283920BA25EE00C53E2D /* mcutil.c in Sources */,
 				1F1E281B20BA24C500C53E2D /* string.c in Sources */,
+				1F1E283220BA25EE00C53E2D /* kmetis.c in Sources */,
+				1F1E283F20BA25EE00C53E2D /* pmetis.c in Sources */,
 				1F1E281920BA24BC00C53E2D /* evaluate.c in Sources */,
 				1F1E281820BA24BC00C53E2D /* sort.c in Sources */,
+				1F1E284220BA25EE00C53E2D /* contig.c in Sources */,
+				1F1E284F20BA25EE00C53E2D /* minconn.c in Sources */,
+				1F1E283E20BA25EE00C53E2D /* balance.c in Sources */,
+				1F1E283A20BA25EE00C53E2D /* ometis.c in Sources */,
 				1F1E282020BA24C500C53E2D /* timers.c in Sources */,
+				1F1E284520BA25EE00C53E2D /* stat.c in Sources */,
 				1F1E281520BA24B400C53E2D /* omp.c in Sources */,
+				1F1E283020BA25EE00C53E2D /* parmetis.c in Sources */,
 				1F1E281420BA24B000C53E2D /* util.c in Sources */,
+				1F1E283420BA25EE00C53E2D /* compress.c in Sources */,
 				1F1E281020BA24B000C53E2D /* htable.c in Sources */,
 				1F1E282820BA24C500C53E2D /* tokenizer.c in Sources */,
 				1F1E281220BA24B000C53E2D /* memory.c in Sources */,
+				1F1E284620BA25EE00C53E2D /* checkgraph.c in Sources */,
+				1F1E284420BA25EE00C53E2D /* kwayfm.c in Sources */,
+				1F1E282E20BA25EE00C53E2D /* mincover.c in Sources */,
 				1F1E282920BA24C900C53E2D /* rw.c in Sources */,
 				1F1E282620BA24C500C53E2D /* blas.c in Sources */,
+				1F1E283320BA25EE00C53E2D /* meshpart.c in Sources */,
+				1F1E283620BA25EE00C53E2D /* auxapi.c in Sources */,
+				1F1E283820BA25EE00C53E2D /* frename.c in Sources */,
 				1F1E281A20BA24C500C53E2D /* pqueue.c in Sources */,
 				1F1E281120BA24B000C53E2D /* itemsets.c in Sources */,
+				1F1E284320BA25EE00C53E2D /* coarsen.c in Sources */,
+				1F1E283520BA25EE00C53E2D /* gklib.c in Sources */,
 				1F1E282120BA24C500C53E2D /* error.c in Sources */,
+				1F1E284720BA25EE00C53E2D /* timing.c in Sources */,
 				1F1E282220BA24C500C53E2D /* seq.c in Sources */,
+				1F1E282D20BA25EE00C53E2D /* kwayrefine.c in Sources */,
 				1F1E282520BA24C500C53E2D /* graph.c in Sources */,
+				1F1E284E20BA25EE00C53E2D /* options.c in Sources */,
 				1F1E281320BA24B000C53E2D /* gkregex.c in Sources */,
 				1F1E281C20BA24C500C53E2D /* random.c in Sources */,
+				1F1E284020BA25EE00C53E2D /* mmd.c in Sources */,
 				1F1E281620BA24BA00C53E2D /* io.c in Sources */,
+				1F1E283C20BA25EE00C53E2D /* sfm.c in Sources */,
+				1F1E284C20BA25EE00C53E2D /* srefine.c in Sources */,
 				1F1E281F20BA24C500C53E2D /* csr.c in Sources */,
+				1F1E283120BA25EE00C53E2D /* util.c in Sources */,
+				1F1E282F20BA25EE00C53E2D /* bucketsort.c in Sources */,
+				1F1E284120BA25EE00C53E2D /* refine.c in Sources */,
+				1F1E284B20BA25EE00C53E2D /* graph.c in Sources */,
 				1F1E281720BA24BA00C53E2D /* fkvkselect.c in Sources */,
+				1F1E283720BA25EE00C53E2D /* separator.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +595,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				HEADER_SEARCH_PATHS = GKlib;
+				HEADER_SEARCH_PATHS = (
+					include,
+					GKlib,
+					libmetis,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -566,7 +654,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				HEADER_SEARCH_PATHS = GKlib;
+				HEADER_SEARCH_PATHS = (
+					include,
+					GKlib,
+					libmetis,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
